@@ -78,6 +78,7 @@ end
 def calibration_conversion(str) # helper method
   all_nums = ''
   digits = '0123456789'
+
   str.each_char do |char|
     if digits.include?(char)
       all_nums << char
